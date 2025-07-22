@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv
+venv/
+*.egg-info/
+pip-wheel-metadata/
+
+# AI Models & Datasets - VERY IMPORTANT
+# These files are often GBs in size and will break your repo.
+*.pt
+*.pth
+*.bin
+*.safetensors
+/models/
+/datasets/
+
+# Node.js
+node_modules/
+dist/
+.npm
+
+# Environment variables
+.env*
+
+# IDE & OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
