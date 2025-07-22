@@ -1,0 +1,59 @@
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  margin-bottom: 40px;
+}
+
+.prompt-form {
+  margin-bottom: 30px;
+}
+
+.prompt-form input {
+  padding: 10px;
+  width: 50%;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.prompt-form button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.prompt-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.image-container img {
+  max-width: 512px;
+  max-height: 512px;
+  border: 3px solid #61dafb;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #61dafb;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
